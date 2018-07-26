@@ -19,6 +19,11 @@
         }
     },
     "extra": {
+        "laravel": {
+            "providers": [
+                "Torann\\PodcastFeed\\PodcastFeedServiceProvider"
+            ],
+        }
         "branch-alias": {
             "dev-master": "0.2-dev"
         }
